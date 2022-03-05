@@ -1,0 +1,340 @@
+@media (max-width: 1200px)
+    .menu
+        &__item
+            padding-right: 20px
+        &__link
+            font-size: 13px
+    .promo
+        &__header
+            font-size: 50px
+        &__subheader
+            font-size: 35px
+    .reason
+        &__item
+            align-items: flex-start
+        &__wrapper
+            width: 300px
+    .mobile
+        &__item
+            width: 300px
+footer
+    .footer__container
+        padding: 0 11px
+        .footer__social
+            width: 25%
+        .footer__wrapper
+            width: 50%
+        .footer__store
+            width: 25%
+
+@media (max-width: 991px)
+    .menu
+        &__item
+            padding-right: 8px
+        &__link
+            font-size: 10px
+    .subheader
+        &__img-logo
+            width: 100%
+        &__text-logo
+            font-size: 11px
+        &__phone
+            font-size: 18px
+        &__btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo
+        &__header
+            font-size: 40px
+        &__subheader
+            font-size: 26px
+    .reason
+        &__item
+            flex-direction: column
+            align-items: center
+            .reason__round
+                margin-right: 0
+            .reason__wrapper
+                width: 300px
+                margin-top: 20px
+    .label-text
+        font-size: 35px
+    .mobile
+        &__item
+            width: 220px
+            height: 220px
+            padding-top: 35px
+
+        &__subtitle
+            font-size: 17px
+            line-height: 22px
+        &__img
+            bottom: 21px
+
+    .choice
+        min-height: 817px
+        padding-bottom: 80px
+        &__img
+            width: 100%
+
+    footer
+        .footer__container
+            flex-direction: column
+            .footer__wrapper
+                width: 100%
+            .footer__social
+                width: 100%
+                justify-content: center
+                margin-top: 20px
+            .footer__store
+                width: 100%
+                justify-content: center
+                margin-top: 20px
+
+        .footer__container > div
+            &:nth-child(1)
+                order: 2
+            &:nth-child(2)
+                order: 1
+            &:nth-child(3)
+                order: 3
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 100%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &__active
+            left: 0
+        &__item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &__link
+            font-size: 20px
+
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &__active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translate(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translate(3px) rotate(45deg)
+
+    .xs_hidden
+        display: none
+    .xs_visible
+        display: block
+
+    .subheader
+        &__phone
+            display: block
+            margin-top: 15px
+            font-size: 16px
+            text-align: center
+            color: #ffffff
+            text-transform: uppercase
+            margin-left: 70px
+        &__btn
+            display: block
+            width: 160px
+            height: 30px
+            margin: 0 auto
+            margin-top: 15px
+            margin-left: 76px
+
+    .promo
+        &__header
+            font-size: 35px
+
+        &__subheader
+            font-size: 26px
+
+@media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
+
+    .label-text
+        font-size: 16px
+        margin-top: 15px
+        line-height: 16px
+
+    .subtitle
+        font-size: 14px
+        line-height: 21px
+        margin-top: 11px
+
+    .subheader
+        height: 60px
+        top: 30px
+        &__text-logo
+            display: none
+        &__link-logo
+            margin-top: 16px
+        &__phone
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            margin-left: 0px
+            margin-top: 11px
+        &__btn
+            margin: 0 auto
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: 6px
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        &__text
+            display: none
+        &__header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        &__subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+        &__btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+            font-size: 16px
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+
+    .menu
+        &__item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+        &__link
+            display: block
+
+    .hamburger
+        &__active
+            span
+                &:nth-child(1)
+                    transform: translateY(5px) rotate(-45deg)
+                &:nth-child(3)
+                    transform: translateY(5px) rotate(45deg)
+
+    .reason
+        padding: 22px 0 36px 0
+        &__item
+            margin-top: 26px
+            .reason__round
+                width: 100px
+                height: 100px
+            .reason__header
+                font-size: 16px
+                text-align: left
+            .reason__text
+                margin-top: 0
+
+    .mobile
+        padding: 20px 0 40px 0
+        .row
+            margin-top: 30px
+        &__item
+            height: 254px
+            width: 254px
+            padding: 81px 40px 0 40px
+        &__subtitle
+            font-size: 18px
+            line-height: 31px
+
+    .choice
+        padding: 25px 0 33px 0
+        min-height: 390px
+        background: #000
+        &__img
+            margin-top: 35px
+        &__descr
+            margin-top: 23px
+            color: #ffffff
+            font-size: 17px
+            font-weight: 300
+            line-height: 24px
+        .black
+            display: none
+
+    .require
+        padding: 25px
+        &__wrapper
+            margin: 30px 0 0 0
+        &__title
+            font-size: 16px
+        &__list
+            padding-left: 30px
+            margin-top: 5px
+            li
+                font-size: 14px
+                margin-bottom: 5px
+                line-height: 20px
+        &__descr
+            font-size: 14px
+            margin-top: 15px
+
+    .world
+        min-height: 360px
+        padding: 25px 0 30px 0
+        &__link
+            width: 200px
+            display: block
+            bottom: 30px
+            line-height: 15px
+
+    footer
+        padding: 25px 0 20px 0
+        .footer__container
+            .footer__wrapper
+                .footer__line
+                    width: 253px
+                    margin: 0 auto
+                .footer__link
+                    margin-top: 22px 
+                    a
+                        font-size: 14px
+                        margin-left: 16px
+                .footer__link-small
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: center
+                    a
+                        margin-top: 13px
+                        font-size: 11px
+                        
