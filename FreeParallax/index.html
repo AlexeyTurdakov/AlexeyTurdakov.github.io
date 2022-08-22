@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax by Matthew Wagerfield</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main-page">
+        <div class="parallax-block">
+          <ul class="parallax-block__list">
+            <li data-depth="0.10">
+              <div class="parallax-block__background"></div>
+            </li>
+
+            <li data-depth="0.15">
+              <div class="parallax-block__rope parallax-block__rope_mod1">
+                <div class="parallax-block__elem parallax-block__elem_mod1">
+                  <span></span>
+                </div>
+                <div class="parallax-block__elem parallax-block__elem_mod2">
+                  <span></span>
+                </div>
+                <div class="parallax-block__elem parallax-block__elem_mod3">
+                  <span></span>
+                </div>
+                <img src="./img/rope.png" alt="rope" />
+              </div>
+            </li>
+
+            <li data-depth="0.30">
+              <div class="parallax-block__rope parallax-block__rope_mod2">
+                <div class="parallax-block__elem parallax-block__elem_mod4">
+                  <span></span>
+                </div>
+                <div class="parallax-block__elem parallax-block__elem_mod5">
+                  <span></span>
+                </div>
+                <img src="./img/rope.png" alt="rope2" />
+              </div>
+            </li>
+
+            <li data-depth="0.60">
+              <div class="parallax-block__rope parallax-block__rope_mod3">
+                <div class="parallax-block__elem parallax-block__elem_mod6">
+                  <span></span>
+                </div>
+                <div class="parallax-block__elem parallax-block__elem_mod7">
+                  <span></span>
+                </div>
+                <div class="parallax-block__elem parallax-block__elem_mod8">
+                  <span></span>
+                </div>
+                <img src="./img/rope.png" alt="rope3" />
+              </div>
+            </li>
+
+            <li data-depth="0.30">
+              <div class="parallax-block__wave parallax-block__wave_mod1"></div>
+            </li>
+
+            <li data-depth="0.40">
+              <div class="parallax-block__wave parallax-block__wave_mod2"></div>
+            </li>
+
+            <li data-depth="0.50">
+              <div class="parallax-block__wave parallax-block__wave_mod3"></div>
+            </li>
+
+            <li data-depth="0.60">
+              <div class="parallax-block__light-house"></div>
+            </li>
+
+            <li data-depth="0.60">
+              <div class="parallax-block__wave parallax-block__wave_mod4"></div>
+            </li>
+
+            <li data-depth="0.80">
+              <div class="parallax-block__wave parallax-block__wave_mod5"></div>
+            </li>
+
+            <li data-depth="1.00">
+              <div class="parallax-block__wave parallax-block__wave_mod6"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- здесь может быть ваш контент -->
+      <div class="content"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/jquery.parallax.js"></script>
+  </body>
+</html>
