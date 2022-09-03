@@ -1,0 +1,31 @@
+@media (max-width: 991.98px) {
+  [class*="__container"] {
+    max-width: 750px;
+  }
+
+  .header__button {
+    flex: 0 0 152px;
+  }
+
+  .menu__item {
+    margin-right: 30px;
+  }
+
+  .header__container {
+    min-height: 80px;
+  }
+
+  /*get-started__block*/
+
+  .get-started__image img {
+    width: 450px;
+  }
+
+  .block-text__title {
+    font-size: 34px;
+  }
+
+  .footer {
+    margin-top: 70px;
+  }
+}

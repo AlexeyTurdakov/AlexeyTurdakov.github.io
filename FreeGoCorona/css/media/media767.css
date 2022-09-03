@@ -1,0 +1,124 @@
+@media (max-width: 767.98px) {
+  [class*="__container"] {
+    max-width: none;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__container {
+    min-height: 80px;
+    justify-content: space-between;
+  }
+
+  .button {
+    width: 100px;
+    height: 30px;
+    animation: none;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__logo-mini {
+    display: block;
+  }
+
+  .header__img {
+    animation: shake 7s;
+    animation-iteration-count: infinite;
+  }
+
+  .header__img:hover {
+    animation: none;
+  }
+
+  /*get-started__block*/
+  .get-started {
+    padding-bottom: 0px;
+  }
+
+  .get-started__video {
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .block-text__title {
+    font-size: 24px;
+  }
+
+  .get-started__wrap {
+    flex-direction: column;
+  }
+
+  /*stay-safe__block*/
+
+  .stay-safe {
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    margin-top: 50px;
+  }
+
+  .stay-safe__block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stay-safe__container {
+    display: none;
+  }
+
+  /*Experts-block*/
+
+  .experts {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+
+  .experts__statistics {
+    width: 100%;
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .experts__content {
+    margin-top: 250px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .experts__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experts__text_mr {
+    margin-right: 0px;
+  }
+
+  .statistics-block__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .experts__video {
+    margin-top: 50px;
+  }
+
+  /*healthcare-block*/
+
+  .healthcare-animation__item4 {
+    top: -2%;
+    right: 28%;
+  }
+}

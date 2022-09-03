@@ -1,0 +1,49 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fcfdfe;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.14em;
+  animation: 2s neon-2 alternate-reverse infinite;
+}
+
+.button:hover {
+  transition: 0.5s;
+}
+
+@keyframes neon-2 {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #bfe2ff;
+  }
+
+  to {
+    text-shadow: 0 0 20px #bfe2ff, 0 0 35px #bfe2ff, 0 0 40px #bfe2ff,
+      0 0 50px #bfe2ff, 0 0 800px #bfe2ff;
+  }
+}
+
+.button__blue {
+  background-color: #5688d8;
+}
+
+.button__blue:hover {
+  background-color: #0e65e6;
+}
+
+.button__red {
+  background-color: #ec5863;
+}
+
+.button__red:hover {
+  background-color: #e7202d;
+}

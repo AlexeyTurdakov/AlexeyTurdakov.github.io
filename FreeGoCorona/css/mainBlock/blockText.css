@@ -1,0 +1,24 @@
+.block-text__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  color: #000000;
+}
+
+.block-text__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+  color: #616161;
+  margin: 12px 0 24px 0;
+}
+
+/*this is block-text block span color*/
+.block-text__span-red {
+  color: #ec5863;
+}
+
+.block-text__span-blue {
+  color: #5688d8;
+}
